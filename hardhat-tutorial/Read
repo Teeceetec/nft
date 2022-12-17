@@ -1,0 +1,40 @@
+const address = 0xF34e2DebcF4e8f49Be8165ac9b90E06F504AA889
+
+
+/*
+To setup a Hardhat project, Open up a terminal and execute these commands
+
+mkdir NFT-Collection
+cd NFT-Collection
+mkdir hardhat-tutorial
+cd hardhat-tutorial
+npm init --yes
+npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox
+In the same directory where you installed Hardhat run:
+
+npx hardhat
+Make sure you select Create a Javascript Project and then follow the steps in the terminal to complete your Hardhat setup.
+
+In the same terminal now install @openzeppelin/contracts as we would be importing Openzeppelin's ERC721Enumerable Contract in our CryptoDevs contract.
+
+npm install @openzeppelin/contracts
+
+Now let's install dotenv package to be able to import the env file and use it in our config. Open up a terminal pointing at hardhat-tutorial directory and execute this command
+
+when youre done
+
+npm install dotenv
+ QUICKNODE_HTTP_URL="add-quicknode-http-provider-url-here"
+
+PRIVATE_KEY="add-the-private-key-here"
+
+
+Compile the contract, open up a terminal pointing at hardhat-tutorial directory and execute this command
+
+npx hardhat compile
+To deploy, open up a terminal pointing at hardhat-tutorial directory and execute this command
+
+npx hardhat run scripts/deploy.js --network goerli
+Save the Crypto Devs Contract Address that was printed on your terminal in your notepad, you would need it futher down in the tutorial.
+
+*/
